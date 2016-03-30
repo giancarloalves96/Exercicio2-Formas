@@ -1,8 +1,8 @@
 public class Square extends Shape {
 	private int side;
-	Square(String sname){
+	Square(String sname, int side){
 		super(sname);
-		side=3;
+		this.side=side;
 	}
 	public float calculateArea(){
 		int area;

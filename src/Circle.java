@@ -1,9 +1,9 @@
 public class Circle extends Shape {
 	private int radius;
 	
-	Circle(String cname){
+	Circle(String cname, int radius){
 		super(cname);
-		radius=3;
+		this.radius=radius;
 	}
 	public float calculateArea(){
 		float area;

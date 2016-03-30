@@ -1,8 +1,8 @@
 public class Triangle extends Shape{
 	private int side;
-	Triangle(String tname){
+	Triangle(String tname, int side){
 		super(tname);
-		side=3;
+		this.side=side;
 	}
 	public float calculateArea(){
 		float area;
